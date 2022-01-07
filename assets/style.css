@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+body {
+    background: linear-gradient(68.15deg, var(--darkRed) 16.62%, var(--lightRed) 85.61%);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.header__nav {
+    font-family: var(--sarala);
+    font-size: 1.8rem;
+    font-weight: 400;
+    display: flex;
+    gap: 3.2rem;
+    color: var(--white);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4px solid var(--white);
+    margin-bottom: 4.8rem;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.presentation__div {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.presentation__title {
+    font-family: var(--righteous);
+    font-size: 6.4rem;
+}
+
+.presentation__text {
+    font-weight: 400;
+    font-family: var(--sarala);
+    font-size: 2.4rem;
+    color: var(--beje);
+}
+
+.presentation__button {
+    width: 18rem;
+    height: 6rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: .4rem .5rem .4rem rgba(0, 0, 0, .25);
+    background-color: var(--beje);
+    font-size: 2.4rem;
+    color: var(--cinza);
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+}
+
+.presentation__button:hover {
+    background-color: rgba(236, 214, 196, .53);
+}
+
+.presentation__image {
+    height: 25rem;
+    padding: 4rem;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 4.8rem;
+}
+
+.benefits__title {
+    border-top: 0.4px solid var(--white);
+    padding-top: 3.4rem;
+    font-size: 2.4rem;
+    font-family: var(--righteous);
+}
+
+.benefits__items {
+    font-family: var(--sarala);
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-top: .4px solid var(--white);
+}
+
+.footer__text {
+    font-family: var(--righteous);
+    text-transform: uppercase;
+    font-size: 8rem;
+    color: var(--beje);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {}

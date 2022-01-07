@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+:root {
+    --darkRed: #550704;
+    --lightRed: #d44848;
+    --gray: #c0c0c0;
+    --white: #FFF2E7;
+    --beje: #ecd6c4;
+    --cinza: #2f2325;
+    --sarala: 'Sarala', sans-serif;
+    --righteous: 'Righteous', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    color: var(--white);
+}
+
+a,
+a:visited {
+    color: inherit;
+}
