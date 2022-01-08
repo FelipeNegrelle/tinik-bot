@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
 body {
     background: linear-gradient(68.15deg, var(--darkRed) 16.62%, var(--lightRed) 85.61%);
-    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -120,4 +120,33 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+    }
+    .header, .header__nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__nav {
+        margin: 1rem 0;
+    }
+    .presentation {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .presentation__div { 
+        align-items: center;
+    }
+    .presentation__image {
+        padding: 6rem;
+    }
+    .presentation__title, .presentation__text, .presentation__button {
+        text-align: center;
+    }
+    .benefits {
+        padding: 0 1rem;
+    }
+}
+
